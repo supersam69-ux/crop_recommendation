@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('https://images.unsplash.com/photo-1499529112087-3cb3b73cec95?auto=format&fit=crop&q=80&w=1000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8ZmFybXxlbnwwfHwwfHx8MA%3D%3D');
+    background-size: cover; 
+    background-position: center; 
+    background-attachment: fixed;
+    font-family: 'Roboto', sans-serif; /* Changing font to Roboto for a modern look */
+  }
+  
+  h1.my {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+  }
+  
+  form {
+    margin: 25px auto;
+    max-width: 500px; /* Reducing the width of the form for better readability */
+    padding: 40px; /* Increasing padding for a more spacious look */
+    background-color: rgba(255, 255, 255, 0.9); /* Making the form background slightly transparent */
+    border-radius: 15px; /* Adding border radius for rounded corners */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3); /* Adding a subtle shadow for depth */
+  }
+  
+  label {
+    font-weight: bold;
+    color: #333; /* Changing label color for better contrast */
+  }
+  
+  .form-control {
+    width: 100%;
+    padding: 15px;
+    margin: 10px 0;
+    border: 2px solid #ccc; /* Thicker border for input fields */
+    border-radius: 25px; /* Adding more rounded corners */
+    transition: border-color 0.3s ease; /* Adding smooth transition for border color */
+  }
+  
+  .form-control:focus {
+    outline: none;
+    border-color: #007bff; /* Changing border color on focus */
+  }
+  
+  .btn-primary {
+    background-color: #007bff;
+    color: #fff;
+    padding: 15px 30px; /* Increasing padding for better touch target */
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Adding smooth background color transition */
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3; /* Darkening the color on hover */
+  }
+  
